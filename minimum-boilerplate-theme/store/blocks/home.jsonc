@@ -1,15 +1,38 @@
 {
-  "store.home": { 
-    "blocks": [
-      "rich-text"
-    ]
+  "store.home": {
+    "blocks": ["rich-text", "info-card#button-right", "info-card#button-left"]
   },
   "rich-text": { 
     "props": { 
-      "text": "VTEX Store Framework",
+      "text": "Alexandre - Nike Store Concept",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "font": "t-heading-1"
+    }
+  },
+  "info-card#button-right": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://imgnike-a.akamaihd.net/1300x1300/01692151A2.jpg",
+      "headline": "Kyrie Infinity",
+      "subhead": "Dê asas aos seus pés.<br>Disponível a partir de Setembro de 2022.</br>",  
+      "callToActionMode": "button",
+      "callToActionText": "Explore",
+      "callToActionUrl": "/sale/d",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#button-left": {
+    "props": {
+    "isFullModeStyle": false,
+    "textPosition": "left",
+    "imageUrl": "https://imgnike-a.akamaihd.net/1300x1300/0129937T.jpg",
+    "headline": "LeBron XIX",
+    "subhead": "O rei voltou.<br>Disponível a partir de Outubro de 2022.",
+    "callToActionMode": "button",
+    "callToActionText": "Reserva",
+    "textAlignment": "center"
     }
   }
 }
